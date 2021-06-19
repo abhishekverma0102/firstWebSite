@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+.programmer {
+  font-weight: normal;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  color: #66BFBF;
+    background-color: white;
+    border-style: dotted none none;
+    border-color: #EAF6F6;
+    border-width: 6px;
+    width: 4%;
+    margin: 70px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 110px;
+}
+
+.pro:hover {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  transition: transform 1s;
+  position: absolute;
+  right: 180px;
+  top: 80px;
+}
+.top-cloud:hover{
+  transform: scale(1.5);
+}
+
+.bottom-cloud {
+  transition: transform 1s;
+  position: absolute;
+  left: 149px;
+  top: 255px;
+}
+.bottom-cloud:hover{
+  transform: scale(1.5);
+}
+
+.profile-pic {
+  border-radius: 100%;
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 0px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width: 300px;
+	height: 250px;
+	margin: 0;
+	padding: 30px 0px 0px 0px;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.skill-pic1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.skill-pic2 {
+  width: 25%;
+  float: right;
+  border-radius: 100%;
+}
+
+.middle-container {}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 20px;
+  line-height: 5;
+}
+
+  .BUTTON_BWI {
+   background: #E9FD00;
+   background-image: -webkit-linear-gradient(top, #E9FD00, #D0691E);
+   background-image: -moz-linear-gradient(top, #E9FD00, #D0691E);
+   background-image: -ms-linear-gradient(top, #E9FD00, #D0691E);
+   background-image: -o-linear-gradient(top, #E9FD00, #D0691E);
+   background-image: -webkit-gradient(to bottom, #E9FD00, #D0691E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   font-size: 34px;
+   font-weight: 300;
+   padding: 13px;
+   -webkit-box-shadow: 3px 3px 20px 5px #000000;
+   -moz-box-shadow: 3px 3px 20px 5px #000000;
+   box-shadow: 3px 3px 20px 5px #000000;
+   text-shadow: 7px 7px 20px #000000;
+   border: solid #0059A0 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_BWI:hover {
+   border: solid #000000 2px;
+   background: #FF6000;
+   background-image: -webkit-linear-gradient(top, #FF6000, #FFC71F);
+   background-image: -moz-linear-gradient(top, #FF6000, #FFC71F);
+   background-image: -ms-linear-gradient(top, #FF6000, #FFC71F);
+   background-image: -o-linear-gradient(top, #FF6000, #FFC71F);
+   background-image: -webkit-gradient(to bottom, #FF6000, #FFC71F);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.fb {
+  width: 2%;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.insta {
+  width: 2%;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.github {
+  width: 2%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
